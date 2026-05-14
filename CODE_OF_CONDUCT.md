@@ -46,7 +46,7 @@ We are opposed to all form of harassment, discrimination and bullying. We are co
 If you witness or experience a violation of this Code of Conduct:
 
 1. **Document the issue** - Note the date, time, and details
-2. **Report privately** - Contact the maintainers at: likhith.adithya@gmail.com
+2. **Report privately** - Contact the maintainers through the repository's private contact channels.
 3. **Include context** - Provide links and relevant information
 4. **Be safe** - If you feel unsafe, prioritize your safety first
 

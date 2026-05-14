@@ -130,7 +130,7 @@ You may appeal only if significant changes are demonstrated.
 
 For sensitive issues (threats, harassment):
 
-**Email**: likhith.adithya@gmail.com
+**Contact**: Please reach out to the maintainers privately for urgent moderation reports.
 **Subject**: "[URGENT] Moderation Report"
 
 ---

@@ -4,7 +4,50 @@
 
 ---
 
+## 🚀 Download & Install
+
+Experience the power of AI Agents in your terminal with one click.
+
+### **Get it from the Marketplace**
+[![VS Code Marketplace](https://img.shields.io/visual-studio-marketplace/v/likhith-adithya.ai-cli-pro?label=VS%20Code%20Marketplace&style=for-the-badge&logo=visual-studio-code)](https://marketplace.visualstudio.com/items?itemName=likhith-adithya.ai-cli-pro)
+[![Open VSX](https://img.shields.io/badge/Open%20VSX-Coming%20Soon-orange?style=for-the-badge&logo=open-vsx)](https://open-vsx.org/)
+
+### **Quick Installation**
+
+1.  **Standard VS Code / Cursor**:
+    Open the **Extensions** view (`Ctrl+Shift+X`), search for `AI CLI ⚡` or `likhith-adithya.ai-cli-pro`, and click **Install**.
+
+2.  **VSCodium Users**:
+    Since AI-CLI-HUB is currently on the MS Marketplace, you can:
+    - Download the `.vsix` file from the [Marketplace](https://marketplace.visualstudio.com/items?itemName=likhith-adithya.ai-cli-pro) and install it manually via **"Install from VSIX..."** in the Extensions menu.
+    - Or, configure VSCodium to use the MS Marketplace (see [VSCodium docs](https://github.com/VSCodium/vscodium/blob/master/DOCS.md#extensions-marketplace)).
+
+3.  **Via Command Line**:
+    ```bash
+    code --install-extension likhith-adithya.ai-cli-pro
+    ```
+
+---
+
+## 💻 Compatibility
+
+
+AI-CLI-HUB is designed to work seamlessly across different environments.
+
+### **Supported IDEs**
+- 🟦 **Visual Studio Code** (v1.80.0 or higher)
+- 🚀 **Cursor**
+- 🛡️ **VSCodium**
+
+### **Supported Operating Systems**
+- 🍎 **macOS** (Intel & Apple Silicon)
+- 🪟 **Windows** (10/11)
+- 🐧 **Linux** (Ubuntu, Debian, Fedora, Arch, etc.)
+
+---
+
 ## 📋 About This Repository
+
 
 This is the **public issue tracker** for the AI-CLI-HUB VS Code extension. This repository is exclusively for:
 
