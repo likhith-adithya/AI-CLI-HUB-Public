@@ -39,9 +39,10 @@ Moderators may take the following actions depending on the severity and frequenc
 ---
 
 ## 🔍 Reporting & Investigation
-*   **Reporting:** Users are encouraged to report violations via GitHub's reporting tools or by contacting maintainers privately.
-*   **Confidentiality:** Reports will be handled with as much confidentiality as is practical during the investigation.
-*   **Review Process:** Investigations will consider context, intent, and previous history. Decisions are made at the discretion of the moderation team.
+*   **Reporting:** Users are encouraged to report violations via GitHub's standard reporting tools (for comments and issues). 
+*   **Private Reporting:** For sensitive incidents, harassment, or security concerns, please refer to our [**SECURITY.md**](SECURITY.md) for private contact instructions.
+*   **Confidentiality:** Reports will be handled with strict confidentiality.
+*   **Review Process:** Investigations will consider context, intent, and previous history. Decisions are made at the sole discretion of the maintainers.
 
 ---
 

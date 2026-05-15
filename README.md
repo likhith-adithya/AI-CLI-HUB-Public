@@ -217,9 +217,9 @@ Focus on solutions rather than blame. Suggest improvements rather than just poin
 
 ## 📧 Contact & Support
 
-- **Issues & Bugs**: Open an issue on this repository
-- **General Questions**: Use GitHub Discussions (coming soon)
-- **Private Concerns**: Contact the maintainers privately
+- **Issues & Bugs**: Open an issue on this repository.
+- **Private & Sensitive Reports**: For security vulnerabilities or sensitive moderation incidents (e.g., harassment), please refer to our [**SECURITY.md**](SECURITY.md) for private reporting instructions.
+- **General Questions**: Use GitHub Discussions (coming soon).
 
 ---
 
