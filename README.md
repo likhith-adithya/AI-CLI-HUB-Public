@@ -2,7 +2,7 @@
 
 [![GitHub stars](https://img.shields.io/github/stars/likhith-adithya/AI-CLI-HUB-Public?style=for-the-badge)](https://github.com/likhith-adithya/AI-CLI-HUB-Public/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/likhith-adithya/AI-CLI-HUB-Public?style=for-the-badge)](https://github.com/likhith-adithya/AI-CLI-HUB-Public/network/members)
-[![License](https://img.shields.io/github/license/likhith-adithya/AI-CLI-HUB-Public?style=for-the-badge)](LICENSE)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg?style=for-the-badge)](LICENSE)
 
 > A community-driven issue tracker and feature request board for [AI-CLI-HUB](https://github.com/likhith-adithya/AI-CLI-HUB) - Your AI Agents: One click and one command away.
 
@@ -65,7 +65,13 @@ If you find **AI-CLI-HUB** useful and would like to support its development, ple
 - 💬 **Sharing** it with your fellow developers
 - 💖 **Sponsoring** the project via [GitHub Sponsors](https://github.com/sponsors/likhith-adithya)
 
-Your support helps me maintain the extension and keep adding new features!
+### 🚀 Become a Sponsor
+We offer several sponsorship tiers designed to support the project's long-term sustainability while providing visibility for our supporters.
+- 🖼️ **Recognition:** Features for your logo or brand on our repository page.
+- 📣 **Release Visibility:** Inclusion in our official release notes.
+- 📰 **Updates & News:** Share version updates or community announcements through our official channels.
+
+For full details on tiers, visibility standards, and legal disclaimers, please see our [**SPONSORS.md**](./SPONSORS.md).
 
 ---
 
@@ -202,7 +208,7 @@ Focus on solutions rather than blame. Suggest improvements rather than just poin
 
 ## 📄 License
 
-This repository is part of the AI-CLI-HUB project and follows the same license terms.
+This repository is part of the AI-CLI-HUB project and follows the Apache License 2.0.
 
 ---
 

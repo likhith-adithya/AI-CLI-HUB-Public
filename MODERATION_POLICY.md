@@ -1,210 +1,61 @@
-# MODERATION_POLICY.md
+# Moderation Policy for AI CLI Hub
+
+**Effective Date:** May 15, 2026
+**Version:** 1.1
 
 ## 🛡️ Our Commitment
-
-We are committed to:
-- Creating a harassment-free environment
-- Protecting community members from abuse
-- Enforcing our Code of Conduct fairly and consistently
-- Being transparent about moderation decisions
+We are committed to maintaining a safe, productive, and professional community. This policy outlines how we enforce our standards to protect our contributors and users.
 
 ---
 
-## 📋 What We Moderate
-
-### 🚫 Comments We Will Remove
-
-1. **Hate Speech & Discrimination**
-   - Comments targeting individuals based on protected characteristics
-   - Slurs, ethnic, racial, or religious insults
-   - Sexist, homophobic, or transphobic content
-
-2. **Harassment & Threats**
-   - Personal attacks or insults
-   - Threats of violence
-   - Doxxing (sharing private information)
-   - Cyberbullying or intimidation
-
-3. **Spam & Off-Topic**
-   - Promotional content or advertising
-   - Irrelevant posts
-   - Duplicate content
-   - Link spam or phishing attempts
-
-4. **Misinformation**
-   - Deliberately false information
-   - Conspiracy theories
-   - Malicious rumors
-
-5. **Inappropriate Content**
-   - Explicit sexual content
-   - Graphic violence
-   - Content violating laws
-
-6. **Impersonation**
-   - Pretending to be someone else
-   - Fake credentials or authority
+## ⚖️ General Principles & Reservation of Rights
+1.  **Final Authority:** The project maintainers reserve the absolute right to remove any content or ban any user for any reason, with or without notice.
+2.  **No Liability:** To the maximum extent permitted by law, the project maintainers and contributors shall not be liable for any moderation actions taken, including but not limited to the removal of content or the suspension of accounts.
+3.  **Third-Party Content:** Users are solely responsible for the content they post. The project does not endorse and is not responsible for the accuracy or legality of user-generated content.
+4.  **Policy Updates:** This policy may be updated at any time. Continued participation in the community constitutes acceptance of the latest version.
 
 ---
 
-## ⚖️ Moderation Actions
-
-### Level 1: Warning (First Offense)
-**Action**: Private message or comment
-
-```
-⚠️ Comment removed
-Reason: [specific violation]
-
-Our community has a Code of Conduct that requires [specific expectation].
-Please review: [link to CODE_OF_CONDUCT.md]
-
-Future violations may result in temporary suspension.
-```
-
-### Level 2: Temporary Suspension (Pattern or Serious Violation)
-**Action**: Block from repository for 7-30 days
-
-```
-🔒 Account temporarily suspended
-Reason: [specific violations]
-Duration: [7-30 days]
-
-We want to give you time to reflect on our community standards.
-You can appeal this decision by contacting the maintainers.
-```
-
-### Level 3: Permanent Ban (Repeated Violations or Severe Abuse)
-**Action**: Permanent removal from repository
-
-```
-❌ Account permanently banned
-Reason: [specific violations]
-
-This decision was made after careful consideration and is final.
-You may appeal only if significant changes are demonstrated.
-```
+## 📋 Prohibited Conduct
+We will moderate and remove content including, but not limited to:
+*   **Hate Speech & Discrimination:** Content targeting individuals based on protected characteristics.
+*   **Harassment & Threats:** Personal attacks, doxxing, or intimidation.
+*   **Spam & Malicious Links:** Promotional content, phishing, or malware distribution.
+*   **Misinformation:** Deliberately false or misleading information.
+*   **Inappropriate Content:** Explicit sexual content, graphic violence, or illegal material.
+*   **Impersonation:** Falsely claiming the identity or authority of another.
 
 ---
 
-## 🔍 How We Handle Reports
+## 🛠 Enforcement Actions
+Moderators may take the following actions depending on the severity and frequency of violations:
+1.  **Warning:** A private or public notification of a violation.
+2.  **Content Removal:** Deletion of the violating comment or post.
+3.  **Temporary Suspension:** A block from the repository for a period of 7 to 30 days.
+4.  **Permanent Ban:** Permanent removal from the community and repository.
 
-### Step 1: Report Received
-- Acknowledge receipt within 24 hours
-- Assign to moderator
-- Document all details
-
-### Step 2: Investigation
-- Review context and history
-- Verify violation
-- Consider severity and intent
-- Check for patterns
-
-### Step 3: Decision
-- Determine appropriate action
-- Take action (remove, warn, suspend, ban)
-- Document decision
-
-### Step 4: Communication
-- Inform reporter (action taken)
-- Inform violator (reason & appeal process)
-- Update record
-
-### Step 5: Appeals
-- Violator can appeal within 7 days
-- Different moderator reviews appeal
-- Final decision made within 48 hours
+*Note: Serious violations (e.g., threats of violence, illegal content) may result in an immediate permanent ban without prior warning.*
 
 ---
 
-## 📞 Reporting Violations
-
-### How to Report
-
-1. **Flag the comment** - Use GitHub's flag feature
-2. **Include context** - Explain why it violates the policy
-3. **Provide evidence** - Link to the problematic comment
-4. **Stay safe** - If threatened, contact authorities
-
-### Private Reports
-
-For sensitive issues (threats, harassment):
-
-**Contact**: Please reach out to the maintainers privately for urgent moderation reports.
-**Subject**: "[URGENT] Moderation Report"
+## 🔍 Reporting & Investigation
+*   **Reporting:** Users are encouraged to report violations via GitHub's reporting tools or by contacting maintainers privately.
+*   **Confidentiality:** Reports will be handled with as much confidentiality as is practical during the investigation.
+*   **Review Process:** Investigations will consider context, intent, and previous history. Decisions are made at the discretion of the moderation team.
 
 ---
 
-## 🤝 Community Responsibilities
-
-### Don't
-- ❌ Harass, insult, or attack others
-- ❌ Share hateful, discriminatory, or violent content
-- ❌ Impersonate others or use fake identities
-- ❌ Spam or promote unrelated products
-- ❌ Share private information without consent
-- ❌ Spread misinformation deliberately
-
-### Do
-- ✅ Treat everyone with respect
-- ✅ Disagree constructively
-- ✅ Report violations promptly
-- ✅ Give others benefit of the doubt
-- ✅ Acknowledge mistakes and apologize
-- ✅ Help maintain a safe community
+## 📞 Appeals
+Users who have been suspended or banned may appeal the decision within 7 days by contacting the maintainers through official channels. The result of an appeal is final.
 
 ---
 
-## 👨‍⚖️ Special Cases
-
-### Disagreements & Debates
-**Allowed ✅**: Respectful disagreement on technical or feature decisions
-
-**Not Allowed ❌**: Personal attacks disguised as technical criticism
-
-### Mistakes & Misunderstandings
-**We forgive**: Honest mistakes, misunderstandings, or cultural differences
-
-**Process**: Give person chance to correct if they respond well to feedback
-
-### Mental Health & Crisis
-**If someone mentions self-harm or suicide**:
-1. Take seriously
-2. Contact their local emergency services if location known
-3. Provide crisis resources
-4. Have maintainer follow up privately
+## 📚 Related Documents
+*   [Code of Conduct](CODE_OF_CONDUCT.md)
+*   [Contributing Guidelines](CONTRIBUTING.md)
+*   [GitHub Community Guidelines](https://docs.github.com/en/site-policy/github-terms/github-community-guidelines)
 
 ---
 
-## 📊 Transparency Report
-
-We publish a transparency report quarterly:
-- Number of reports received
-- Types of violations
-- Actions taken
-- Appeals and outcomes
-
----
-
-## 📚 Resources
-
-- [Code of Conduct](CODE_OF_CONDUCT.md)
-- [Contributing Guidelines](CONTRIBUTING.md)
-- [GitHub Community Guidelines](https://docs.github.com/en/site-policy/github-terms/github-community-guidelines)
-
----
-
-## ❓ Questions?
-
-If you have questions about this policy:
-
-1. Check [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)
-2. Review [CONTRIBUTING.md](CONTRIBUTING.md)
-3. Contact maintainers privately
-
-**We're here to help create a safe, welcoming community! 🤝**
-
----
-
-**Last Updated**: 2026-05-14
-**Policy Version**: 1.0
+**Last Updated**: 2026-05-15
+**Policy Version**: 1.1

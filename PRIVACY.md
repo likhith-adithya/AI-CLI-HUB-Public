@@ -1,28 +1,38 @@
 # Privacy Policy for AI CLI Hub
 
-**Effective Date:** May 14, 2026
+**Effective Date:** May 15, 2026
+**Version:** 1.1
 
-AI CLI Hub ("we," "our," or "the Extension") is committed to protecting your privacy. This Privacy Policy explains our data practices and your rights regarding the use of our VS Code extension.
+AI CLI Hub ("we," "our," or "the Extension") is committed to maintaining the highest standards of privacy. This policy outlines our commitment to data minimization and transparency regarding your use of our VS Code extension.
 
-### 1. Core Philosophy: Local-First & Private
-AI CLI Hub is designed as a **local-first** productivity tool. We do not operate any backend servers, nor do we collect, store, or transmit your personal data to any external entity.
+### 1. Core Philosophy: Data Minimization & Local Processing
+The Extension is built on a **local-first** architecture. We believe your data should stay where it belongs: on your machine. We do not operate any backend servers for data collection, nor do we harvest your information for sale or analysis.
 
 ### 2. Information We Do Not Collect
-*   **Personal Information:** We do not collect your name, email address, or any other identifying information.
-*   **Credentials & API Keys:** We do not request, store, or transmit API keys or authentication credentials. All keys used by the CLI tools you manage remain strictly within the local configuration directories of those respective tools.
-*   **Usage Telemetry:** We do not track how often you use the extension, which agents you launch, or any other behavioral metrics.
+*   **Zero Personal Data:** We do not collect names, email addresses, phone numbers, or any government-issued identifiers.
+*   **Zero Credentials:** We never request, store, or transmit your API keys, tokens, or passwords. All authentication remains managed by the respective third-party CLI tools in their local configuration directories.
+*   **Zero Telemetry:** We do not track your clicks, the agents you use, your prompt history, or any other behavioral metrics.
+*   **Zero Sales:** We do not, and will never, sell your data to third parties.
 
-### 3. Third-Party AI Services & CLI Tools
-AI CLI Hub acts as an orchestrator for third-party command-line interface (CLI) tools (e.g., Gemini, Claude, Copilot, Ollama). 
-*   **Independent Policies:** When you interact with an AI agent or a Cloud CLI via the Extension, your data (prompts, code, etc.) is handled directly by that third party. You are encouraged to review the privacy policies of each provider you choose to use.
-*   **External Connections:** When you trigger a "Provision" or "Update" action, the Extension executes standard system commands to connect to official registries (e.g., npm, PyPI, GitHub). These connections are direct and are not monitored or proxied by us.
+### 3. Third-Party Services & CLI Tools
+AI CLI Hub serves as an orchestrator for independent third-party tools (e.g., Gemini, Claude, OpenAI, Ollama). 
+*   **Direct Interaction:** When you use an AI agent, your data (including prompts and code) is transmitted directly from your machine to the third-party provider. This data is governed by the third party's privacy policy.
+*   **No Interception:** We do not proxy, monitor, or intercept the communication between your machine and these services.
+*   **Package Managers:** Operations like "Provision" or "Update" connect directly to official registries (e.g., npm, PyPI, GitHub). These connections are standard and direct.
 
-### 4. Data Storage
-All configuration settings (such as your list of hidden agents or custom command shims) are stored locally on your device via the VS Code Global State API. You can clear this data at any time by uninstalling the extension or resetting your VS Code settings.
+### 4. Local Data Storage
+To provide its functionality, the Extension stores minimal configuration data (e.g., your preferred agent visibility settings) locally on your device using the VS Code Global State API. 
+*   **Control:** You can view, modify, or delete this data at any time by clearing your VS Code global storage or uninstalling the extension.
 
-### 5. Changes to This Policy
-We may update this Privacy Policy from time to time to reflect changes in our practices or for other operational, legal, or regulatory reasons. Significant changes will be announced in the "What's New" panel within the extension.
+### 5. Legal Requests for Information
+Because we do not collect or store your data, we have no data to provide to law enforcement, government agencies, or third-party litigants in response to subpoenas or other legal requests.
 
-### 6. Contact Us
-For any questions regarding this Privacy Policy, please open a public issue at:
+### 6. Children's Privacy
+The Extension is a tool intended for developers and is not directed at children under the age of 16. We do not knowingly collect information from children.
+
+### 7. Changes to This Policy
+We reserve the right to update this Privacy Policy to reflect changes in the Extension's functionality or legal requirements. Updates will be noted in the extension's version history and the repository.
+
+### 8. Contact Us
+For privacy-related inquiries, please open a public issue on our tracker:
 [https://github.com/likhith-adithya/AI-CLI-HUB-Public/issues](https://github.com/likhith-adithya/AI-CLI-HUB-Public/issues)
