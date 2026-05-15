@@ -4,19 +4,20 @@ import os
 from datetime import datetime
 
 # --- CONFIGURATION ---
-EXTENSION_ID = "likhith-adithya.ai-cli-pro"
+MS_MARKETPLACE_ID = "likhith-adithya.ai-cli-pro"
+OPEN_VSX_ID = "likhithadithya/ai-cli-pro" # Note: Open VSX uses namespace/name format
 STATS_FILE = "stats.json"
 SVG_FILE = "downloads_graph.svg"
-MAX_POINTS = 30 # Number of days to show in the graph
+MAX_POINTS = 30 
 
-def get_downloads():
+def get_ms_marketplace_downloads():
     url = "https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery"
     headers = {
         "Accept": "application/json; charset=utf-8; api-version=7.2-preview.1",
         "Content-Type": "application/json"
     }
     body = json.dumps({
-        "filters": [{"criteria": [{"filterType": 7, "value": EXTENSION_ID}]}],
+        "filters": [{"criteria": [{"filterType": 7, "value": MS_MARKETPLACE_ID}]}],
         "flags": 914
     }).encode('utf-8')
     
@@ -25,10 +26,21 @@ def get_downloads():
         with urllib.request.urlopen(req) as response:
             data = json.loads(response.read().decode('utf-8'))
             stats = data['results'][0]['extensions'][0]['statistics']
+            # We want 'install' for MS Marketplace
             installs = next(s['value'] for s in stats if s['statisticName'] == 'install')
             return int(installs)
     except Exception as e:
-        print(f"Error fetching stats: {e}")
+        print(f"Error fetching MS Marketplace stats: {e}")
+        return 0
+
+def get_open_vsx_downloads():
+    url = f"https://open-vsx.org/api/{OPEN_VSX_ID}"
+    try:
+        with urllib.request.urlopen(url) as response:
+            data = json.loads(response.read().decode('utf-8'))
+            return int(data.get('downloadCount', 0))
+    except Exception as e:
+        # Silently return 0 if not found on Open VSX yet
         return 0
 
 def generate_svg(history):
@@ -40,7 +52,6 @@ def generate_svg(history):
     min_val, max_val = min(values), max(values)
     range_val = max(max_val - min_val, 1)
     
-    # SVG Constants
     width, height = 400, 100
     padding = 20
     
@@ -66,15 +77,18 @@ def generate_svg(history):
     </defs>
     <polyline points="{polyline_points}" fill="none" stroke="url(#grad)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
     <circle cx="{points[-1].split(',')[0]}" cy="{points[-1].split(',')[1]}" r="4" fill="#00f2fe" />
-    <text x="{width-padding}" y="{height-2}" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#4facfe" text-anchor="end">{values[-1]} installs</text>
-    <text x="{padding}" y="{height-2}" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#888" text-anchor="start">30 Day Trend</text>
+    <text x="{width-padding}" y="{height-2}" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#4facfe" text-anchor="end">{values[-1]} total installs</text>
+    <text x="{padding}" y="{height-2}" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#888" text-anchor="start">Global Adoption Trend</text>
     </svg>'''
     
     with open(SVG_FILE, "w") as f:
         f.write(svg)
 
 # Main Execution
-current_count = get_downloads()
+ms_count = get_ms_marketplace_downloads()
+ovsx_count = get_open_vsx_downloads()
+total_count = ms_count + ovsx_count
+
 today = datetime.now().strftime("%Y-%m-%d")
 
 if os.path.exists(STATS_FILE):
@@ -84,9 +98,9 @@ else:
     history = []
 
 if history and history[-1]['date'] == today:
-    history[-1]['count'] = current_count
+    history[-1]['count'] = total_count
 else:
-    history.append({"date": today, "count": current_count})
+    history.append({"date": today, "count": total_count})
     history = history[-MAX_POINTS:]
 
 with open(STATS_FILE, "w") as f:
