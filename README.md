@@ -40,6 +40,23 @@ Experience the power of AI Agents in your terminal with one click.
 
 ---
 
+## 📊 Extension Statistics
+
+Stay up to date with the growth and community adoption of AI-CLI-HUB.
+
+| Metric | Live Badge |
+| :--- | :--- |
+| **Total Installs** | [![Installs](https://img.shields.io/visual-studio-marketplace/i/likhith-adithya.ai-cli-pro?style=flat-square&color=blue)](https://marketplace.visualstudio.com/items?itemName=likhith-adithya.ai-cli-pro) |
+| **Average Rating** | [![Rating](https://img.shields.io/visual-studio-marketplace/r/likhith-adithya.ai-cli-pro?style=flat-square&color=brightgreen)](https://marketplace.visualstudio.com/items?itemName=likhith-adithya.ai-cli-pro) |
+| **Latest Version** | [![Version](https://img.shields.io/visual-studio-marketplace/v/likhith-adithya.ai-cli-pro?style=flat-square&color=orange)](https://marketplace.visualstudio.com/items?itemName=likhith-adithya.ai-cli-pro) |
+
+### 📈 Downloads Over Time
+![Downloads Graph](https://vsce-stats.vercel.app/api/sparkline?id=likhith-adithya.ai-cli-pro)
+
+*Note: Statistics are fetched in real-time from the Visual Studio Marketplace.*
+
+---
+
 ## 💻 Compatibility
 
 
