@@ -7,18 +7,18 @@
     </defs>
     
     <!-- Area -->
-    <polygon points="40,120 40.0,118.75690607734806 144.0,101.66436464088397 248.0,83.95027624309392 352.0,67.79005524861878 456.0,49.558011049723774 560.0,39.19889502762432 560,120" fill="url(#areaGrad)" />
+    <polygon points="40,120 40.0,118.90399837629388 126.66666666666667,103.83397605033488 213.33333333333334,88.21595291252284 300.0,73.96793180434342 386.6666666666667,57.89324132332049 473.3333333333333,48.75989445910291 560.0,39.07854678303228 560,120" fill="url(#areaGrad)" />
     
     <!-- X-Axis -->
     <line x1="40" y1="120" x2="560" y2="120" stroke="#888" stroke-width="2" />
     
     <!-- Growth Line -->
-    <polyline points="40.0,118.75690607734806 144.0,101.66436464088397 248.0,83.95027624309392 352.0,67.79005524861878 456.0,49.558011049723774 560.0,39.19889502762432" fill="none" stroke="#00f2fe" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+    <polyline points="40.0,118.90399837629388 126.66666666666667,103.83397605033488 213.33333333333334,88.21595291252284 300.0,73.96793180434342 386.6666666666667,57.89324132332049 473.3333333333333,48.75989445910291 560.0,39.07854678303228" fill="none" stroke="#00f2fe" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
     
     <!-- End Point -->
-    <circle cx="560.0" cy="39.19889502762432" r="6" fill="#fff" stroke="#00f2fe" stroke-width="3" />
+    <circle cx="560.0" cy="39.07854678303228" r="6" fill="#fff" stroke="#00f2fe" stroke-width="3" />
     
     <!-- Labels -->
-    <text x="560" y="30" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#00f2fe" text-anchor="end">888 Total Installs</text>
+    <text x="560" y="30" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#00f2fe" text-anchor="end">994 Total Installs</text>
     <text x="40" y="145" font-family="Arial, sans-serif" font-size="12" fill="#888" text-anchor="start">Global Adoption History</text>
     </svg>
